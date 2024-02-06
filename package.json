@@ -1,0 +1,30 @@
+{
+  "name": "dependency-injection",
+  "version": "1.0.0",
+  "main": "dist/app/index.js",
+  "license": "MIT",
+  "author": {
+    "email": "gabsn.dev@gmail.com",
+    "name": "Gabriel Silva",
+    "url": "https://github.com/gabs-sh"
+  },
+  "scripts": {
+    "dev": "ts-node-dev src/app",
+    "build": "tsc --build"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/validator": "^13.11.9",
+    "reflect-metadata": "^0.2.1",
+    "ts-node-dev": "^2.0.0",
+    "tsyringe": "^4.8.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "validator": "^13.11.0"
+  }
+}
